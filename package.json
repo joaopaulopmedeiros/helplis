@@ -1,0 +1,17 @@
+{
+  "name": "helplis",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": "git+https://github.com/joaopaulopmedeiros/helplis.git",
+  "keywords": [],
+  "author": "joao paulo <joaopaulopmedeiros@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joaopaulopmedeiros/helplis/issues"
+  },
+  "homepage": "https://github.com/joaopaulopmedeiros/helplis#readme",
+  "description": ""
+}
