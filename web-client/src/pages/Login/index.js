@@ -15,7 +15,7 @@ const Login = () => {
               <img src={logo} alt="logo" className="logo-presentation" />
               <h1>Faça seu login no DevHelper!</h1>
             </div>
-            <div className="form-wrapper" >
+            <div className="form-wrapper">
               <form action="/" method="POST">
                 <div className="form-group">
                   <input
