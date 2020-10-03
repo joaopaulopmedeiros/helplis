@@ -1,8 +1,12 @@
 import React from "react"
 
+import "./styles.css";
+
 const Home = () => {
     return (
-        <h1>Home</h1>
+        <div className="fluid-container">
+            <h1>Home</h1>
+        </div>
     )
 }
 
