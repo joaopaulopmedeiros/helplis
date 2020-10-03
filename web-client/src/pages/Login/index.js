@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./styles.css";
 
@@ -22,17 +23,17 @@ const Login = () => {
                     type="text"
                     id="email"
                     aria-label="email"
-                    placeholder="Username"
+                    placeholder="Nome de usuário ou e-mail"
                   />
                   <input
                     name="password"
                     type="password"
                     id="password"
                     aria-label="password"
-                    placeholder="Password"
+                    placeholder="Senha"
                   />
                   <div class="register-link-wrapper">
-                    <a href="javascript:void(0)">Ainda não possui uma conta?</a>
+                    <Link to="/register">Ainda não possui uma conta?</Link>
                   </div>
                   <button type="submit" class="submit-btn">
                     Login

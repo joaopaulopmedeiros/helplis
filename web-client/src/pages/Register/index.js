@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom"
 
 import "./styles.css";
 
@@ -12,7 +13,7 @@ const Register = () => {
           <div className="register-wrapper">
             <div className="presentation-wrapper">
               <img src={logo} alt="logo" className="logo-presentation" />
-              <h1>Faça seu register no DevHelper!</h1>
+              <h1>Faça seu registro no DevHelper!</h1>
             </div>
             <div className="form-wrapper">
               <form action="javascript:void(0)">
@@ -22,7 +23,7 @@ const Register = () => {
                     type="text"
                     id="email"
                     aria-label="email"
-                    placeholder="Nome de usuário ou email"
+                    placeholder="Nome de usuário ou e-mail"
                   />
                   <input
                     name="password"
@@ -41,6 +42,9 @@ const Register = () => {
                   <button type="submit" class="submit-btn">
                     Cadastrar-se
                   </button>
+                  <div class="register-link-wrapper">
+                    <Link to="/login">Voltar para Home</Link>
+                  </div>
                 </div>
               </form>
             </div>

@@ -51,7 +51,7 @@
     max-width: 480px;
     background: var(--terciary-dark-color);
     border-radius: 5px;
-    padding: 64px;
+    padding: 64px 64px 32px 64px;
   }
   
   .form-group {
@@ -73,7 +73,7 @@
   }
   
   .register-link-wrapper {
-    margin: 10px 0 20px;
+    margin-top: 20px;
   }
   
   .register-link-wrapper a {
