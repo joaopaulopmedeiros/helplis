@@ -43,7 +43,7 @@ const Register = () => {
                     Cadastrar-se
                   </button>
                   <div class="register-link-wrapper">
-                    <Link to="/login">Voltar para Home</Link>
+                    <Link to="/login">Voltar para Login</Link>
                   </div>
                 </div>
               </form>
