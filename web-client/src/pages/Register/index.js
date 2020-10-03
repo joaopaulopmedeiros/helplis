@@ -16,7 +16,7 @@ const Register = () => {
               <h1>Faça seu registro no DevHelper!</h1>
             </div>
             <div className="form-wrapper">
-              <form action="javascript:void(0)">
+              <form action="/" method="POST">
                 <div className="form-group">
                   <input
                     name="email"
@@ -39,10 +39,10 @@ const Register = () => {
                     aria-label="password"
                     placeholder="Confirme senha"
                   />
-                  <button type="submit" class="submit-btn">
+                  <button type="submit" className="submit-btn">
                     Cadastrar-se
                   </button>
-                  <div class="register-link-wrapper">
+                  <div className="register-link-wrapper">
                     <Link to="/login">Voltar para Login</Link>
                   </div>
                 </div>

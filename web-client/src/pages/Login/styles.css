@@ -65,19 +65,18 @@
   height: 50px;
   font-size: 16px;
   border: none;
-  background: rgb(18, 18, 20);
-  border-color: rgb(18, 18, 20);
+  background: rgb(18 18 20 / 74%);
   color: rgba(255, 255, 255, 0.63);
   padding: 0px 1em 0px 2.65em;
   border-radius: 5px;
 }
 
-.register-link-wrapper {
+.login-link-wrapper {
   margin: 10px 0 20px;
 }
 
-.register-link-wrapper a {
-  color: var(--secondary-green-color);
+.login-link-wrapper a {
+    color: var(--primary-green-color);
 }
 
 .submit-btn {
